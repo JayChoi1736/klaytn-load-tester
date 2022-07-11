@@ -355,7 +355,7 @@ func (self *Account) TransferSignedTxReturnTx(withLock bool, c *client.Client, t
 		to.GetAddress(),
 		value,
 		21000,
-		nil,
+		gasPrice,
 		nil)
 	gasPrice := tx.GasPrice()
 	signTx, err := types.SignTx(tx, types.NewEIP155Signer(chainID), self.privateKey[0])
