@@ -1192,6 +1192,8 @@ func main() {
 	// Update gasPrice
 	updateGasPrice()
 
+	gasPrice = big.NewInt(750000000000)
+
 	// Update baseFee
 	updateBaseFee()
 
