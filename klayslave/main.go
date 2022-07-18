@@ -518,7 +518,7 @@ func updateGasPrice() {
 }
 
 func updateBaseFee() {
-	baseFee = big.NewInt(750000000000))
+	baseFee = big.NewInt(750000000000)
 	// TODO: Uncomment below when klaytn 1.8.0 is released.
 	//for {
 	//	ctx := context.Background()
