@@ -54,7 +54,7 @@ func init() {
 }
 
 func SetGasPrice(gp *big.Int) {
-	gasPrice = gp
+	gasPrice = big.NewInt(750000000000)
 }
 
 func SetBaseFee(bf *big.Int) {
